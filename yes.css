@@ -2,42 +2,40 @@ body {
     background-color: #424242;
 }
 
-#Sidebar_Left {
-    background-color: #353535;
-    position: fixed;
-    width: 4%;
+#Main {
+    background-color: #FFF;
+    position: relative;
+    width: 86%;
     height: 90%;
     bottom: 0;
-    left: 0;
     border: 0;
-    float: left;
-}
-
-#Sidebar_Right{
-    background-color: #353535;
-    position: fixed;
-    width: 10%;
-    height: 90%;
-    bottom: 0;
-    right: 0;
-    border: 1px;
-
 }
 
 #Banner{
     background-color: #000491;
-    postition: fixed;
+    position: absolute;
     width: 100%;
     height: 10%;
     top: 0;
+    left: 0;
+    right: 0;
     border: 0;
 }
 
-#Main {
-    background-color: #
+#Sidebar_Left {
+    background-color: #353535;
     position: relative;
-    bottom: 0;
-    width: 84%;
+    width: 4%;
+    min-height: 90vh;
+    max-height: 90vh;
+    margin: 0;
+}
+
+#Sidebar_Right{
+    background-color: #353535;
+    position: relative;
+    width: 10%;
     height: 90%;
-    border: 1px;
+    margin: 0;
+    border: 0px;
 }

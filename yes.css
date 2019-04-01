@@ -12,27 +12,14 @@ header {
 }
 #Banner{
     background-color: #000491;
-    border: 0px;
-    margin: 0;
-    padding: 0;
 }
 main {
-    position: relative;
-    margin: 0;
 }
 #Content {
-    border: 0px;
-    margin: 0;
 }
 #Sidebar_Left {
     background-color: #353535;
-    border: 0px;
-    margin: 0;
-    padding: 0;
 }
 #Sidebar_Right{
     background-color: #353535;
-    border: 0px;
-    margin: 0;
-    padding: 0;
 }

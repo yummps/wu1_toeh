@@ -1,25 +1,136 @@
 body {
     background-color: #424242;
+    font-family: 'Roboto', sans-serif;
+    color: #EBF5EE;
 }
 h1 {
     color: #EBF5EE;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+strong {
+    padding-top: 50px;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    background-color: #EBF5EE;
 }
 p {
-    color: #EBF5EE;
+    margin: 10px;
+}
+a {
+    margin: 0;
+    padding: 0;
+}
+form {
+    padding-top: 10px;
+}
+ol {
+    padding-top: 10px;
+}
+iframe {
+    float: right;
+}
+.large {
+    height: 150px;
+    width: 350px;
 }
 header {
     height: 100%;
 }
 #Banner{
-    background-color: #000491;
 }
-main {
+#Nav {
+    margin: 0;
+    padding: 0;
+}
+#Title {
+    margin: 0;
+    padding: 0;
+}
+#Links {
+    margin: 0;
+    padding: 0;
 }
 #Content {
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
 }
-#Sidebar_Left {
+#RecommendedContent {
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+#RecommendedContent a {
+    padding: 10px;
+    font-size: 2rem;
+}
+#dropdownMenuButton {
+    border: 0;
+    background-color: #424242;
+}
+#dropdownMenuButton2 {
+    border: 0;
+    background-color: #424242;
+}
+.dropdown {
+    padding: 10px;
+    padding-top: 20px;
+}
+.dropleft {
+    position: relative;
+    float: right;
+}
+.dropright {
+    position: relative;
+    float: left;
+}
+.btn {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.dropdown-menu {
     background-color: #353535;
 }
-#Sidebar_Right{
-    background-color: #353535;
+.dropdown-menu a{
+    padding-left: 12px;
+}
+.dropdown-menu img{
+    padding-right: 10px;
+}
+.dropdown-menu :hover {
+    background-color: #565656;
+    color: #EBF5EE;
+}
+.dropdown-menu p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+}
+.dropdown-item {
+    color: #EBF5EE;
+    font-size: 1.1rem;
+}
+/* media queries for mobile functionality */
+@media (max-width: 768px) {
+    #Content {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    h1 {
+        display: none;
+    }
+    iframe {
+        display: none;
+    }
 }
